@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'georgia', 'times new roman', times, serif;
+    color: white;
+    margin: 0px;
+    background-image: linear-gradient(140deg, rgb(0, 0, 0), rgba(120, 0, 0, 0.859) 25%, rgb(0, 0, 0));
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.038);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.047);
+}
+.navlinks{
+    display: flex;
+    gap: 10px;
+    font-size: .75rem;
+    padding: 1px 20px;
+    text-transform: uppercase;
+}
+.name{
+    font-size: .60rem;
+    font-weight: bold;
+    color: #ff0000;
+    letter-spacing: 2px;
+    padding: 1px 20px;
+}
+.navlinks a:hover{
+    transition-duration: 1s;
+    color: #ff2626;
+}
+
+
+#home{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.profilepic{
+    width: 450px;
+    height: 600px;
+    background-color: #33333344;
+    border-radius: 15%;
+    margin: 70px 10px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px 2px #ff0000;
+}
+.intro{
+    height: 350px;
+    max-width: 700px;
+    margin: 200px 10px 0px 150px;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.133);
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    padding: 50px 50px;
+    min-height: 75vh;
+    display: flex;
+}
+.section-title{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #ff3030;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 30px;
+    border: 2px solid #d80000;
+    background-color: #00d0ff00;
+    color: rgb(255, 25, 25);
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(254, 0, 0);
+    color: black;
+}
+
+.glassgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.grid{
+    height: 380px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.079);
+    border-radius: 20px;
+    padding: 20px;
+}
+.projects:hover{
+    color: #ff4040;
+    font-weight: bold;
+}
+.contact-info{
+    
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.133);
+    border-radius: 40px;
+    padding: 30px;
+}
+.contact-info p{
+    margin: 5px 0px;
+}
+.contact-info a{
+    color: #ff4040;
+    font-weight: bold;
+}
+.contact-info a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.msg{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: #0000001c;
+    border-top: 1px solid rgba(255, 255, 255, 0.074);
+}
